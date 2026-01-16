@@ -9,7 +9,6 @@ interface SummaryViewProps {
 }
 
 export function SummaryView({ tweetId }: SummaryViewProps) {
-  // Mock Data mimicking the "James Clearway" context
   const mockContextTweet = {
       id: tweetId,
       author: { name: 'James Clearway', handle: 'jamesclear', avatar: '' },

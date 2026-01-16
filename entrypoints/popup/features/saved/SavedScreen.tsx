@@ -1,7 +1,6 @@
 import { Tweet, TweetCard } from "../engage/components/TweetCard";
 import { Bookmark } from "lucide-react";
 
-// Mock reuse (in real app this comes from store)
 const MOCK_SAVED: Tweet[] = [
     {
         id: '2',

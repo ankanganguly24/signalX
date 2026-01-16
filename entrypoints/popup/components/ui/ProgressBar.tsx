@@ -1,7 +1,7 @@
 import { cn } from "../../utils/cn";
 
 interface ProgressBarProps {
-  value: number; // 0-100
+  value: number;
   max?: number;
   className?: string;
   colorClass?: string;

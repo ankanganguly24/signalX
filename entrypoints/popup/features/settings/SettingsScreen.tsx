@@ -7,7 +7,6 @@ import { ShieldCheck, Zap, Sliders, Users, Target, RefreshCw } from "lucide-reac
 import { useState } from "react";
 
 export function SettingsScreen() {
-    // Mock State
     const [discoveryAggression, setDiscoveryAggression] = useState(85);
     const [deepScan, setDeepScan] = useState(true);
     const [filters, setFilters] = useState({

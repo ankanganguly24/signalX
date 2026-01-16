@@ -13,10 +13,10 @@ export interface Tweet {
     avatar: string;
   };
   content: string;
-  timestamp: string; // e.g., "2m ago"
-  velocity: string; // e.g., "+40/hr"
+  timestamp: string;
+  velocity: string;
   signal: 'High' | 'Medium' | 'Low';
-  contextBadge?: string; // e.g., "Fast growth · Founder audience"
+  contextBadge?: string;
   isSaved?: boolean;
 }
 
